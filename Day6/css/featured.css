@@ -1,0 +1,200 @@
+
+.back-button {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    z-index: 999; /* Ensure it appears above other elements */
+    background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+    border: none;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+    background-color: rgba(255, 255, 255, 0.9); /* Darken the background on hover */
+}
+
+.back-button img {
+    width: 20px; /* Adjust the size of the back symbol */
+    height: 20px;
+}
+.btn-minus,
+.btn-plus {
+    background-color: #f89cf2;
+    color: black;
+    border: none;
+    padding: 2px 5px; /* Adjusted padding */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 20px; /* Adjusted width */
+}
+
+.btn-minus:hover,
+.btn-plus:hover {
+    background-color: #0056b3;
+}
+
+.btn-minus {
+    margin-left: -20px; /* Add margin between buttons */
+}
+
+.btn-plus {
+    margin-left: 50px; /* Add margin between buttons */
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+
+.bb {
+    background-color: white;
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px; /* Adjusted horizontal and vertical gap */
+    padding: 20px;
+    border-radius: 4rem;
+    margin: 2rem; /* Added margin to create gaps in all directions */
+    height: 100%; /* Ensure the grid container takes up the full height */
+    overflow-y: auto; /* Enable vertical scrolling */
+}
+
+.product-item {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #070000;
+    border: 1px solid #ccc;
+    padding: 10px; /* Reduced padding */
+    text-align: center;
+    height: 100%; /* Ensure all grid items fill the grid container */
+}
+
+.product-item img {
+    width: 100%;
+    height: auto;
+    max-height: 150px; /* Set a maximum height for the images */
+    margin-bottom: 5px;
+}
+
+.product-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 5px;
+}
+
+.product-name {
+    font-weight: bold;
+    margin-bottom: 3px;
+    color: black; /* Adjusted margin */
+}
+
+.product-price {
+    margin-bottom: 3px; /* Adjusted margin */
+}
+
+.btn-books {
+  
+    color: black;
+    border: none;
+    padding: 3px 10px; /* Reduced padding */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Added margin-top for the book button */
+}
+
+.btn-books:hover {
+    background-color: #0056b3;
+}
+
+.persons-container {
+    margin-top: 5px; /* Adjusted margin */
+    display: flex;
+    align-items: center;
+}
+
+.persons-container span {
+    margin-right: 10px;
+    font-weight: bold;
+}
+
+
+
+.btn-minuss {
+    margin-right: 5px; /* Added margin between the buttons */
+}
+
+
+/* Your existing CSS styles for back-button, product-grid, product-item, product-info, etc. */
+
+.btn-book {
+    background-color: #f89cf2;
+    color: black;
+    border: none;
+    padding: 3px 10px; /* Adjust padding as needed */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 10px; /* Added margin-top for the book button */
+    width: 100%; /* Make the button fill the container */
+}
+
+.btn-book:hover {
+    background-color: #0056b3;
+}
+
+.persons-container {
+    margin-top: 5px; /* Adjusted margin */
+    display: flex;
+    align-items: center;
+    justify-content: space-between; /* Align items horizontally */
+}
+
+.person-input {
+    display: flex;
+    align-items: center;
+}
+
+.person-input button {
+    background-color: #f89cf2;
+    color: black;
+    border: none;
+    padding: 5px; /* Increased padding for the buttons */
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 30px; /* Adjusted width */
+}
+
+.person-input button:hover {
+    background-color: #0056b3;
+}
+
+.person-input span {
+    margin: 0 10px; /* Increased margin */
+    font-size: 1rem; /* Adjusted font size */
+}

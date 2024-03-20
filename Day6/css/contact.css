@@ -1,0 +1,45 @@
+/* ContactUs.css */
+
+/* Set background color to black */
+body {
+    background-color:black;
+    color: #fff; /* Set default text color to white */
+}
+
+/* Override default link color to white */
+a {
+    color: #fff !important;
+}
+
+/* Additional styling for specific elements if needed */
+.contact-page h1,
+.contact-page h3 {
+    color: #fff; /* Set heading colors to white */
+}
+
+.contact-page .btn.ac_btn {
+    background-color: #fff; /* Set button background color to white */
+    color: #000; /* Set button text color to black */
+}
+
+/* Add more custom styles as needed */
+
+/* Set background color to black */
+.contact-page {
+    background-color: #000;
+    padding: 20px; /* Add padding to create space around the content */
+}
+
+/* Style the input fields */
+.contact-page .form-control {
+    background-color: #fff; /* Set input field background color to white */
+    color: #000; /* Set input text color to black */
+    border: none; /* Remove border to create a white box effect */
+    border-radius: 5px; /* Add border-radius for rounded corners */
+    padding: 10px; /* Add padding to input fields */
+}
+
+.contact-page .form-control:focus {
+    outline: none; /* Remove focus outline */
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3); /* Add box-shadow on focus for better visibility */
+}

@@ -1,0 +1,56 @@
+/* EmpDetail.css */
+.bbbbb {
+    background: no-repeat url('../images/77.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.container {
+    margin-top: 50px;
+  }
+  
+  .cardS {
+    background-color: steelblue;
+    color: black;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .cardS-title {
+    margin-bottom: 20px;
+  }
+  
+  .back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+  }
+  
+  .cardS-body {
+    margin-top: 20px;
+  }
+  
+  h2 {
+    margin-bottom: 10px;
+  }
+  
+  h3 {
+    margin-top: 20px;
+  }
+  
+  h5 {
+    margin-bottom: 5px;
+  }
+  

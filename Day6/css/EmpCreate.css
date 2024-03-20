@@ -1,0 +1,60 @@
+.bbb {
+    background: no-repeat url('../images/77.jpg');
+    background-size: cover; 
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 100;
+}
+.h22{
+    color: black;
+}
+.cards {
+    background-color: steelblue; /* Change background color to white */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(247, 244, 244, 0.1);
+    color: black;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 1px solid #0c0000;
+}
+
+.btn-save {
+    background-color: green;
+ 
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+}
+
+.btn-save:hover {
+    background-color: darkgreen;
+}
+
+.text-danger {
+    color: red;
+    font-size: 12px;
+}

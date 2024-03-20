@@ -1,0 +1,64 @@
+/* Assuming this is your main CSS file or component-specific CSS */
+
+.footer {
+  height: 5px; /* Adjust the height as needed */
+  background-color: #333; /* Example background color */
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+}
+
+.back-button {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  z-index: 999; /* Ensure it appears above other elements */
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover {
+  background-color: rgba(255, 255, 255, 0.9); /* Darken the background on hover */
+}
+
+
+
+/* Styling for footer sections */
+.footer-section {
+  flex: 1; /* Equal width for all sections */
+  margin-bottom: 20px; /* Space below each section */
+}
+
+/* Styling for social media icons */
+.social-icons {
+  display: flex;
+  gap: 10px; /* Space between social media icons */
+}
+
+/* Styling for quick links */
+.quick-links ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.quick-links li {
+  margin-bottom: 10px; /* Space between each quick link */
+}
+
+/* Styling for copyright notice */
+.copyright {
+  text-align: center;
+  margin-top: 20px; /* Space above the copyright notice */
+}

@@ -1,0 +1,58 @@
+/* billing.css */
+
+#homebodyc2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0; /* Set a background color for the page */
+}
+
+#bill-container12 {
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 400px;
+}
+
+#billform12 {
+  text-align: center;
+}
+
+#billhead12 {
+  margin-bottom: 20px;
+}
+
+#inputbilling {
+  width: 100%;
+  padding: 8px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+#list12 {
+  display: flex;
+  justify-content: space-between;
+}
+
+#button1, #button2 {
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#button1 {
+  background-color: green;
+  color: white;
+}
+
+#button2 {
+  background-color: red;
+  color: white;
+}
+
+#button1:hover, #button2:hover {
+  opacity: 0.8;
+}

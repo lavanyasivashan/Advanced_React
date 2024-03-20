@@ -1,0 +1,20 @@
+/* Style for the overall container */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    height: 1000vh; /* Make the container take the full viewport height */
+    overflow-y: auto;
+    max-height: 2000px; /* Enable vertical scrolling */
+  }
+  
+  /* Style for the navbar */
+  .navbar {
+    position: sticky; /* Make the navbar stick to the top */
+    top: 0;
+    z-index: 1000; /* Ensure the navbar appears above other content */
+    background-color: #fff; /* Navbar background color */
+    /* Add more styles as needed for your navbar */
+  }
+  
+  /* Style for the hero section */
+  

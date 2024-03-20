@@ -1,0 +1,92 @@
+.aa {
+  background: no-repeat url('../images/4.webp');
+  background-size: cover; 
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-attachment: fixed;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+}
+.register-page1 {
+  
+    width: 400px;
+    height: 700px;
+    margin-top: -4px;
+    background-color: rgba(255, 255, 255, 0.15); /* Glassmorphism effect */
+    backdrop-filter: blur(8px); /* Glassmorphism effect */
+    border-radius: 10px;
+    padding: 30px 30px;
+    box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+   }
+   center h6{
+     font-size: 25px;
+   }
+   .register1 {
+    width: 100%;
+    margin-top: auto;   
+    }
+    .borderbox{
+      outline: none;
+      border: 0;
+      background:none;
+      font-size: 16px;
+      padding: 5px;
+    }      
+    .form-register1 label {
+     font-size: 17px;
+     margin-left: 20px;
+     font-weight:bolder;
+   }
+   
+   .register-input-email,
+   .register-input-password ,
+   .register-input-mobile{
+    background: #ededed;
+    border-radius: 25px;
+    margin: 6px 0 9px 0;
+    padding: 10px;
+    display: flex;
+   }
+   
+   register-input[type="text"],
+   register-input[type="password"] {
+     width: 100%;
+     border: 0;
+     background: none;
+     font-size: 16px;
+     padding: 5px;
+     outline: none;
+   }
+   
+   button {
+    width: 150px;
+    border-radius: 25px;
+    padding: 10px;
+    background-color: rgba(250, 243, 243, 0.15); /* Glassmorphism effect */
+    backdrop-filter: blur(8px); /* Glassmorphism effect */
+    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.2);
+    color: black;
+    font-size: 16px;
+    cursor: pointer;
+  
+    transition: background-color 0.3s ease, box-shadow 0.3s ease; /* Smooth transition */
+  }
+  
+  button:hover {
+    background-color: rgba(250, 243, 243, 0.3); /* Lighten the background on hover */
+    box-shadow: 0 6px 20px rgba(0, 0, 0, 0.3); /* Adjusted box shadow on hover */
+    opacity: 0.9;
+  }
+  .button-containers{
+    margin-top: 2rem;
+    display: flex;
+    justify-content: space-around;
+  
+  }
+   
